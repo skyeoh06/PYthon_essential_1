@@ -1,3 +1,4 @@
+# 1.6
 # Objectives
 # becoming familiar with the print() function and its formatting capabilities;
 # experimenting with Python code.
@@ -27,3 +28,32 @@ print('Hello, Python!')
 print('Hello, Yeoh!')
 >> Hello, Python!
    Hello, Yeoh!
+
+# 1.8
+print("The itsy bitsy spider climbed up the waterspout.")
+print("Down came the rain and washed the spider out.")
+>> The itsy bitsy spider climbed up the waterspout.
+   Down came the rain and washed the spider out.
+
+# 1.9
+# added one empty print() function invocation
+print("The itsy bitsy spider climbed up the waterspout.")
+print()
+print("Down came the rain and washed the spider out.")
+>>
+The itsy bitsy spider climbed up the waterspout.
+
+Down came the rain and washed the spider out.
+
+
+# 1.10
+# Both the backslash and the n form a special symbol named a newline character, which urges the console to start a new output line.
+print("The itsy bitsy spider\nclimbed up the waterspout.")
+print()
+print("Down came the rain\nand washed the spider out.")
+>>
+The itsy bitsy spider
+climbed up the waterspout.
+
+Down came the rain
+and washed the spider out.
