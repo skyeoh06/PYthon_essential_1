@@ -57,3 +57,63 @@ climbed up the waterspout.
 
 Down came the rain
 and washed the spider out.
+
+# 1.11
+print("\")
+>> SyntaxError: EOL while scanning string literal
+print("\\")
+>> \
+
+# 1.12
+# using multiple arguments
+print("The itsy bitsy spider" , "climbed up" , "the waterspout.")
+>> The itsy bitsy spider climbed up the waterspout.
+
+# 1.13
+# The positional way of passing the arguments
+print("My name is", "Python.")
+print("Monty Python.")
+>> 
+My name is Python.
+Monty Python.
+
+# 1.14
+# the keyword arguments
+# the end keyword argument determines the characters the print() function sends to the output once it reaches the end of its positional arguments.
+print("My name is", "Python.", end=" ")
+print("Monty Python.")
+>> My name is Python. Monty Python.
+
+# 1.15
+# the keyword arguments
+print("My name is ", end="")
+print("Monty Python.")
+>> My name is Monty Python.
+
+# 1.16
+# The keyword argument that can do this is named sep (like separator).
+print("My", "name", "is", "Monty", "Python.", sep="-")
+>> My-name-is-Monty-Python.
+
+# 1.17
+# Both keyword arguments may be mixed in one invocation
+print("My", "name", "is", sep="_", end="*")
+print("Monty", "Python.", sep="*", end="*\n")
+>> My_name_is*Monty*Python.*
+
+# 1.18
+# Objectives
+# becoming familiar with the print() function and its formatting capabilities;
+# experimenting with Python code.
+# Scenario
+# Modify the first line of code in the editor, using the sep and end keywords, to match the expected output. Use the two print() functions in the editor.
+
+# Don't change anything in the second print() invocation.
+
+# Expected output
+# Programming***Essentials***in...Python
+
+print("Programming","Essentials","in",end="...",sep="***")
+print("Python")
+
+
