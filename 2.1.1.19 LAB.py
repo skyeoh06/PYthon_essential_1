@@ -8,6 +8,8 @@
 # Try to:
 
 # minimize the number of print() function invocations by inserting the \n sequence into the strings
+print("    *\n   * *\n  *   *\n *     *\n***   ***\n  *   *\n  *   *\n  *****")
+
 # make the arrow twice as large (but keep the proportions)
 # duplicate the arrow, placing both arrows side by side; note: a string may be multiplied by using the following trick: "string" * 2 will produce "stringstring" (we'll tell you more about it soon)
 # remove any of the quotes, and look carefully at Python's response; pay attention to where Python sees an error - is this the place where the error really exists?
