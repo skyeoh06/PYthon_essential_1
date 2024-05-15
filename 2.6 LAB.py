@@ -55,3 +55,14 @@ print("+" + 10 * "-" + "+")
 |          |
 +----------+
 
+# 1.8
+# Type conversion: str()
+leg_a = float(input("Input first leg length: "))
+leg_b = float(input("Input second leg length: "))
+print("Hypotenuse length is " + str((leg_a**2 + leg_b**2) ** .5))
+>>
+Input first leg length: 78
+Input second leg length: 19
+Hypotenuse length is 80.2807573457052
+
+
