@@ -73,3 +73,35 @@ print("Ready or not, here I come!")
 5 Mississippi
 Ready or not, here I come!
 
+# The break and continue statements
+# break - example
+
+print("The break instruction:")
+for i in range(1, 6):
+    if i == 3:
+        break
+    print("Inside the loop.", i)
+print("Outside the loop.")
+>>
+The break instruction:
+Inside the loop. 1
+Inside the loop. 2
+Outside the loop.
+
+# continue - example
+
+print("\nThe continue instruction:")
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print("Inside the loop.", i)
+print("Outside the loop.")
+>>
+The continue instruction:
+Inside the loop. 1
+Inside the loop. 2
+Inside the loop. 4
+Inside the loop. 5
+Outside the loop.
+
+    
