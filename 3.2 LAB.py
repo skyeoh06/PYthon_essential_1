@@ -104,4 +104,33 @@ Inside the loop. 4
 Inside the loop. 5
 Outside the loop.
 
-    
+# 1.12
+# The while loop and the else branch
+i = 1
+while i < 5:
+    print(i)
+    i += 1
+else:
+    print("else:", i)
+>>
+1
+2
+3
+4
+else: 5
+
+# 1.13
+# The for loop and the else branch
+for i in range(5):
+    print(i)
+else:
+    print("else:", i)
+
+>>
+0
+1
+2
+3
+4
+else: 4
+
