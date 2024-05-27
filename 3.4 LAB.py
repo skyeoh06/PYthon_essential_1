@@ -86,26 +86,25 @@ print(numbers[-2])
 numbers = [111, 7, 2, 1]
 print(len(numbers))
 print(numbers)
-
+>>
+4
+[111, 7, 2, 1]
 ###
 
 numbers.append(4)
 
 print(len(numbers))
 print(numbers)
-
+>>
+5
+[111, 7, 2, 1, 4]
 ###
 
 numbers.insert(0, 222)
 print(len(numbers))
 print(numbers)
 
-#
 >>
-4
-[111, 7, 2, 1]
-5
-[111, 7, 2, 1, 4]
 6
 [222, 111, 7, 2, 1, 4]
 
